@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 3</title>
+	<link rel="stylesheet" type="text/css" href="./style/style3.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<h1>Matching Game!</h1>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="./style/script3.js"></script>
+</head>
+
+<body>
+	<div><button onClick="restartGame()" id="restartButton">Restart</button></div>
+	<p id = "description">The objective of the game is to match the gray shapes on the left with the same shape on the right that has a colored outline. You will do so by dragging the gray shape and hovering it over the correct colored outline shape. Good luck! </p> 	
+	<div id = "board" style="height: 700px;">
+		<div class="leftColumn" style="width:33%">
+			<img id="draggable3" src="http://www.iconsdb.com/icons/preview/gray/circle-xxl.png">
+			<img id="draggable1" src="http://www.iconsdb.com/icons/preview/gray/triangle-xxl.png">
+			<img id="draggable4" src="http://www.iconsdb.com/icons/preview/gray/hexagon-xxl.png">
+			<img id="draggable2" src="http://www.craftcuts.com/media/catalog/product/cache/42/small_image/360x250/0d0b21afdf5242369dcac3b6f8a25135/d/i/dimensional_shapes_arrows_arrow1.jpg">
+		</div>
+		<div class="rightColumn" style="width:33%">
+			<img id="droppable1" src="http://1.bp.blogspot.com/-ocwSf-heLMs/TZB6QCQ-ttI/AAAAAAAACEY/0Olh8PI1yuQ/s320/shape-triangle.gif">
+			<img id="droppable2" src ="http://www.clker.com/cliparts/Y/q/r/q/x/p/right-arrow-white-with-green-border.svg">
+			<img id="droppable3" src = "http://www.iloveshakespeare.com/images/pink_circle.png">
+			<img id="droppable4" src = "https://img2.embroiderydesigns.com/StockDesign/Large/Internet_Stitch/isftsb01y.jpg">
+		</div>
+	</div>
+</body>
+
+<footer>
+	<p>Made by Jess and Julie Toy Company</p>
+</footer>
+</html>

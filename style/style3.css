@@ -1,0 +1,97 @@
+h1 {
+	text-align: center;
+	color: #66B9BF;
+	font-size: 250%; 
+}
+#restartButton {
+	width:80px;
+	font-size:125%;
+	background: #EEAA7B;
+	color:white;
+	margin-left:20px;
+	border:none;
+	border-bottom:1px solid;
+	padding: 5px;
+}
+#description {
+	background-color:#07889B;
+	color:white;
+	text-align: center;
+	margin: 20px;
+	padding: 5px;
+
+
+
+
+
+
+}
+
+
+body {
+	background-image: url(http://line25.com/wp-content/uploads/2010/css-poster/12.png);
+	
+}
+
+
+img {
+	width:90%;
+	height:150px;
+	float:left;
+	margin: 10px;
+
+
+}
+
+
+.leftColumn {
+	float:left;
+	width:35%;
+	background-color: white;
+	margin:5px;
+
+
+}
+.rightColumn {
+	float:right;
+	width:35%;
+	background-color: white;
+	margin:5px;
+
+
+
+
+}
+.middleColumn {
+	display:inline-block;
+	width:33;
+}
+footer {
+	text-align: center;
+	clear: both;
+    position: relative;
+}
+#link1 {
+	float:left;
+	width:100px;
+	border-right: solid;
+}
+
+
+
+
+#link2 {
+	float:left;
+	width:100px;
+	border-right: solid;
+}
+
+
+
+
+#link3 {
+	float:left;
+	width:100px;	
+}
+
+
